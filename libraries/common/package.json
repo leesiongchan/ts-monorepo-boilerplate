@@ -1,0 +1,11 @@
+{
+  "name": "@mono/common",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {}
+}

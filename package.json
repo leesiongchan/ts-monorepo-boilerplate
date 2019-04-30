@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "start:app": "yarn workspace @mono/app start",
+    "start:server": "yarn workspace @mono/server start",
+    "start:web": "yarn workspace @mono/web start"
+  },
+  "devDependencies": {
+    "@types/expo": "^32.0.0",
+    "@types/express": "^4.16.1",
+    "@types/jest": "^24.0.12",
+    "@types/node": "^11.13.8",
+    "@types/react": "^16.8.15",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-native": "^0.57.0",
+    "typescript": "^3.4.5"
+  },
+  "workspaces": [
+    "libraries/*",
+    "projects/*"
+  ]
+}

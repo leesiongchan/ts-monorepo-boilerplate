@@ -1,0 +1,15 @@
+{
+  "name": "@mono/server",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/index.ts"
+  },
+  "dependencies": {
+    "@mono/common": "*",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "ts-node": "^8.1.0",
+    "tsconfig-paths": "^3.8.0"
+  }
+}
