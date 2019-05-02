@@ -5,7 +5,17 @@
   "module": "dist/index.m.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@mono/common": "*"
+  },
+  "devDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  }
 }

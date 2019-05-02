@@ -5,7 +5,8 @@
   "module": "dist/index.m.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest"
   },
   "dependencies": {}
 }

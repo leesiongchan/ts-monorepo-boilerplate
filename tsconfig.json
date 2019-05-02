@@ -5,6 +5,7 @@
     "paths": {
       "@mono/common": ["libraries/common/src"],
       "@mono/react-components": ["libraries/react-components/src"]
-    }
+    },
+    "typeRoots": ["types", "node_modules/@types"]
   }
 }

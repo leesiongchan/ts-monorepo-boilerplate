@@ -3,7 +3,9 @@
   "scripts": {
     "start:app": "yarn workspace @mono/app start",
     "start:server": "yarn workspace @mono/server start",
-    "start:web": "yarn workspace @mono/web start"
+    "start:web": "yarn workspace @mono/web start",
+    "test:common": "yarn workspace @mono/common test",
+    "test:react-components": "yarn workspace @mono/react-components test"
   },
   "devDependencies": {
     "@types/expo": "^32.0.0",
@@ -13,6 +15,12 @@
     "@types/react": "^16.8.15",
     "@types/react-dom": "^16.8.4",
     "@types/react-native": "^0.57.0",
+    "jest": "^24.7.1",
+    "jest-dom": "^3.1.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-testing-library": "^7.0.0",
+    "ts-jest": "^24.0.2",
     "typescript": "^3.4.5"
   },
   "workspaces": [
